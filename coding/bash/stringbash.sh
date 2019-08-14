@@ -18,11 +18,11 @@ while [ "$count" -lt "$LIMIT" ]
 #
 #Space, because these are "test-brackets"
 do
-datestr=date +%s #generatr date string for file
-touch "log_$datestr.txt"
+datestr=`date +%s` #generatr date string for file
+touch "log_$datestr".txt"
 uname >> log_$datestr.txt
 date >> log_$datestr.txt
-grep -m expr $count + 1 $sstring dict.txt | tail -1 >>log_$datestr.txt
+grep -m ``expr $count + 1` $sstring dict.txt | tail -1 >>log_$datestr.txt
 sleep 25 # wait for 25 seconds
 count=expr $count + 1
 done # while
