@@ -5,4 +5,3 @@ then
 echo "U have to be root"
 exit 
 fi
-?
