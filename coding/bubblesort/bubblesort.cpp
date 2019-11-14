@@ -3,7 +3,7 @@
  *
  *  Created on: June. 12, 2019
  *      Author: Mohpreet 
- */
+ *//
 #include<iostream>
 using namespace std;
 int main ()
