@@ -2,6 +2,6 @@
 
 if [ whoami != 'root' ]
 then
-echo "U have to be root"
+echo "u have to be root"
 exit 
 fi
