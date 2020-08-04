@@ -2,7 +2,7 @@
 * quick.cpp
  *
  *  Created on: Jun. 26, 2019
- *      Author: mohpreet
+ *      Author: Mohpreet
  
 
 #include <iostream>
